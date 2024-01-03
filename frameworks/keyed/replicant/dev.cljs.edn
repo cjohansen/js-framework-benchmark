@@ -1,0 +1,8 @@
+^{:watch-dirs ["src"]}
+{:main demo.main
+ :optimizations :none
+ :pretty-print true
+ :source-map true
+ :asset-path "dist/js"
+ :output-to "dist/main.js"
+ :output-dir "dist/js"}
