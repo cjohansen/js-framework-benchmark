@@ -1,0 +1,7 @@
+{:paths ["src" "dist" "target"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/clojurescript {:mvn/version "1.11.60"}
+        no.cjohansen/replicant {:git/url "https://github.com/cjohansen/replicant"
+                                :sha "bb72d7b4ff40f156c3683bd73c46614f6e5dc9ba"}
+        cider/piggieback {:mvn/version "0.5.3"}
+        com.bhauman/figwheel-main {:mvn/version "0.2.18"}}}

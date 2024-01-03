@@ -1,0 +1,13 @@
+{
+  "name": "replicant",
+  "private": true,
+  "js-framework-benchmark": {
+    "frameworkVersion": "bb72d7b",
+    "frameworkHomeURL": "https://github.com/cjohansen/replicant"
+  },
+  "scripts": {
+    "dev": "clojure -M -m figwheel.main -r dev",
+    "build-dev": "clojure -M -m figwheel.main -bo dev",
+    "build-prod": "clojure -M -m figwheel.main -bo prod"
+  }
+}
